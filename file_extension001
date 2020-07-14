@@ -1,0 +1,40 @@
+name=str(input())
+print(name)
+python = ".py" in name
+c_file = ".c" in name
+jpg_file =".jpg" in name
+doc_file=".doc" in name
+mp4_file=".mp4" in name
+if (python == True ) :
+
+    print("the file extension is Python")
+
+    
+
+elif (c_file == True ) :
+
+    print("the file extension is C ")
+
+
+
+elif (jpg_file == True ) :
+
+    print("the file extension is jpg")
+
+
+
+elif (doc_file == True ) :
+
+    print("the file extension is Document ")
+
+
+
+elif (mp4_file == True ) :
+
+    print("the file extension is Video MP4 ")
+
+    
+
+else :
+
+    print("the file isnt python, c, jpg, document,video MP4")
